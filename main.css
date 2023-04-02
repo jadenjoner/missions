@@ -1,0 +1,90 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --black: #2a293e;
+}
+
+body{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 1.1rem;
+    color: var(--black);
+}
+
+main{
+    width: 800px;
+    max-width: 90%;
+    margin: 2rem auto;
+}
+
+main img{
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: .5rem;
+}
+
+.center{
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+h2{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border-left: 4px solid var(--black);
+    padding-left: .5rem;
+}
+
+.video{
+    text-align: center;
+}
+
+.video iframe{
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.method{
+    margin-top: 1rem;
+    font-size: 1.1em;
+}
+
+.method *{
+    vertical-align: middle;
+}
+
+.method a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.methods{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.fund{
+    border: 2px solid #222;
+    border-radius: 2rem;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.fund .amount{
+    padding: .3rem;
+    background: #4943ff;
+    color: white;
+    font-weight: bold;
+    padding-left: 1rem;
+    border-radius: 2rem;
+}
